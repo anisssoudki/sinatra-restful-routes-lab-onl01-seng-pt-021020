@@ -43,6 +43,7 @@ class ApplicationController < Sinatra::Base
     recipe.cook_time = params[:cook_time]
     erb :edit
   end
+  end
   
 
   delete '/recipes/:id' do #delete action
