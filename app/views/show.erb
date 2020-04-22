@@ -1,1 +1,3 @@
-<h1> <%= @recipe.attributes.to_a[1..3].flatten %> </h1>
+<h1> <h3> Recipe Name: <%= @recipe.name %></h3>
+<h3> Recipe Ingredients: <%= @recipe.ingredients %></h3>
+<h3> Recipe Cook Time: <%= @recipe.cook_time %></h3> </h1>
