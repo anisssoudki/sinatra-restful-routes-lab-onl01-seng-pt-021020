@@ -17,7 +17,7 @@ class ApplicationController < Sinatra::Base
   end
   
   get '/recipes/new' do #new action
-    
+    erb :new
   end
   
   post '/recipes' do #create action
